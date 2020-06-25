@@ -1,0 +1,83 @@
+{
+  "name": "front-spa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "prod-build": "vue-cli-service build --mode production",
+    "docker-build": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit --watch"
+  },
+  "dependencies": {
+    "@inotom/vue-go-top": "^1.1.0",
+    "axios": "^0.19.0",
+    "babel-jest": "^25.1.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.3",
+    "cache-loader": "^4.1.0",
+    "core-js": "^3.4.4",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.15.0",
+    "postscribe": "^2.0.8",
+    "vue": "^2.6.10",
+    "vue-browser-detect-plugin": "^0.1.5",
+    "vue-content-loader": "^0.2.2",
+    "vue-flag-icon": "^1.0.6",
+    "vue-i18n": "^8.3.1",
+    "vue-jest": "^3.0.5",
+    "vue-router": "^3.1.3",
+    "vue-slider-component": "^3.0.41",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-e2e-nightwatch": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "@vue/cli-plugin-pwa": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "jest": {
+    "preset": "@vue/cli-plugin-unit-jest",
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134.159" height="105.293" viewBox="0 0 134.159 105.293">
+  <g id="Group_3" data-name="Group 3" transform="translate(-508.841 -287.354)">
+    <g id="Group_1" data-name="Group 1">
+      <path id="Path_1" data-name="Path 1" d="M-.682-2.162,52-10,24.517,17.434-5,48Z" transform="matrix(-0.695, -0.719, 0.719, -0.695, 593.157, 382.103)" fill="#bcf2f0" opacity="0.47"/>
+      <g id="Group_2" data-name="Group 2">
+        <text id="HOMEMADE" transform="translate(509 325)" fill="#ecc31f" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="22">HOME</tspan><tspan y="22" fill="#fff">MADE</tspan></text>
+      </g>
+      <path id="Path_2" data-name="Path 2" d="M-.682-2.162,52-10,24.517,17.434-5,48Z" transform="matrix(0.695, 0.719, -0.719, 0.695, 546.843, 297.897)" fill="#d0eb8f" opacity="0.47"/>
+    </g>
+  </g>
+</svg>

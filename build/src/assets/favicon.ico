@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_10" data-name="Group 10" transform="translate(-4636 976)">
+    <g id="Rectangle_1096" data-name="Rectangle 1096" transform="translate(4636 -976)" stroke="#030303" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="HM" transform="translate(4639 -971)" fill="#e3b536" font-size="15" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="16">H</tspan><tspan y="16" fill="#fff">M</tspan></text>
+  </g>
+</svg>
